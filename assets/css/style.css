@@ -6,6 +6,7 @@
   --yellow: #ffcc3d;
   --jordy: #959dff;
   --bg: #ffffff;
+  --blue: #2020b2;
 }
 
 * {
@@ -18,6 +19,16 @@
 body {
   background-color: var(--bg);
 }
+.btn-style {
+  background-color: var(--purple) !important;
+  color: var(--bg) !important;
+  font-size: 1.15rem;
+}
+.btn-style:hover {
+  background-color: var(--lavender) !important;
+  color: var(--purple) !important;
+}
+
 /* Header Starts */
 header nav {
   background-color: var(--purple);
@@ -49,3 +60,19 @@ header .navbar-toggler:focus {
   box-shadow: none;
 }
 /* Header Ends */
+/* Hero Section Starts */
+.hero h1 {
+  font-size: 5rem;
+}
+.hero h1 span {
+  color: var(--blue);
+}
+.hero .hero-footer .hero-footer-box {
+  background-color: var(--purple);
+  color: var(--bg);
+  height: 100px;
+}
+.hero .hero-footer .hero-footer-box img {
+  width: 18%;
+}
+/* Hero Section Ends */
