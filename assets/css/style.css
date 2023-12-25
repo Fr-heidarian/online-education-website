@@ -18,4 +18,34 @@
 body {
   background-color: var(--bg);
 }
-
+/* Header Starts */
+header nav {
+  background-color: var(--purple);
+}
+header nav .navbar-brand {
+  color: var(--bg);
+  font-size: 1.5rem;
+}
+header .navbar-nav a.nav-link,
+header .navbar-nav a.nav-link.active {
+  color: var(--bg);
+  font-size: 1.25rem;
+  padding: 0 1rem !important;
+}
+header .navbar-nav a.nav-link:hover,
+header .navbar-nav a.nav-link.active:hover {
+  color: var(--lavender);
+  font-size: 1.25rem;
+  padding: 0 1rem !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(207,194,252)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: var(--lavender);
+}
+header .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* Header Ends */
