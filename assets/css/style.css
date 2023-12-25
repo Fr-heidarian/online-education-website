@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Rubik:wght@300;400;500;600&display=swap");
+
+:root {
+  --purple: #3c2973;
+  --lavender: #cfc2fc;
+  --yellow: #ffcc3d;
+  --jordy: #959dff;
+  --bg: #ffffff;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 80%;
+}
+
+body {
+  background-color: var(--bg);
+}
+
