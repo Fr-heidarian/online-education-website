@@ -76,3 +76,12 @@ header .navbar-toggler:focus {
   width: 18%;
 }
 /* Hero Section Ends */
+.about-content h1{
+  font-size: 4rem;
+  color: var(--blue);
+}
+.about-content p {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
