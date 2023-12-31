@@ -14,6 +14,7 @@
 }
 .container {
   width: 80%;
+  margin: auto;
 }
 
 body {
@@ -76,7 +77,8 @@ header .navbar-toggler:focus {
   width: 18%;
 }
 /* Hero Section Ends */
-.about-content h1{
+/* About Us Starts */
+.about-content h1 {
   font-size: 4rem;
   color: var(--blue);
 }
@@ -84,4 +86,26 @@ header .navbar-toggler:focus {
   line-height: 2rem;
   font-size: 1.5rem;
 }
+/* About Us ends */
 
+/* Courses Section Starts */
+.courses h1 {
+  font-size: 4rem;
+}
+.courses h1 span {
+  color: var(--blue);
+}
+.card {
+  background-color: var(--bg);
+  height: 25rem;
+  border: 1px solid var(--lavender);
+  box-shadow: 2px 2px 4px rgba(149, 157, 255, 0.7);
+}
+.card img {
+  height: 12rem;
+  width: 10rem;
+}
+/* .carousel-control-prev,
+.carousel-control-next {
+  color: var(--purple) !important;
+}    */
