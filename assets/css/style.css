@@ -29,6 +29,12 @@ body {
   background-color: var(--lavender) !important;
   color: var(--purple) !important;
 }
+.title h1 {
+  font-size: 4rem;
+}
+.title h1 span {
+  color: var(--blue);
+}
 
 /* Header Starts */
 header nav {
@@ -89,12 +95,6 @@ header .navbar-toggler:focus {
 /* About Us ends */
 
 /* Courses Section Starts */
-.courses h1 {
-  font-size: 4rem;
-}
-.courses h1 span {
-  color: var(--blue);
-}
 .courses .card {
   background-color: var(--bg);
   height: 26rem;
@@ -131,4 +131,81 @@ header .navbar-toggler:focus {
 .owl-dots .owl-dot.active span {
   background-color: var(--purple) !important;
   font-size: 1.25rem !important;
+}
+
+/* tutors section statrs */
+.swiper {
+  width: 100%;
+  padding-top: 3rem;
+}
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: var(--lavender);
+}
+.swiper-pagination {
+  bottom: 1.25rem !important;
+}
+.swiper-slide {
+  width: 18.75rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+.swiper-slide a {
+  margin: 0.85rem;
+  font-size: 1rem;
+}
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+}
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../images/t-1.jpg) no-repeat 20% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../images/t-2.jpg) no-repeat 20% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../images/t-3.jpg) no-repeat 20% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../images/t-4.jpg) no-repeat 20% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../images/t-5.jpg) no-repeat 20% 50% / cover;
+}
+.icons-container {
+  right: 1rem;
+  top: 1rem;
+}
+.icons-container i {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  visibility: hidden;
+  transition: visibility 0.5s ease;
+  background-color: var(--lavender);
+  color: var(--purple) !important;
+}
+.swiper-slide {
+  border-radius: 0.5rem;
+}
+.swiper-slide:hover i {
+  visibility: visible;
 }
