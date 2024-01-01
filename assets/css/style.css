@@ -95,17 +95,40 @@ header .navbar-toggler:focus {
 .courses h1 span {
   color: var(--blue);
 }
-.card {
+.courses .card {
   background-color: var(--bg);
-  height: 25rem;
+  height: 26rem;
   border: 1px solid var(--lavender);
   box-shadow: 2px 2px 4px rgba(149, 157, 255, 0.7);
 }
-.card img {
-  height: 12rem;
-  width: 10rem;
+.courses .card img {
+  /* height: 12rem;
+  width: 10rem; */
 }
 /* .carousel-control-prev,
 .carousel-control-next {
   color: var(--purple) !important;
 }    */
+.owl-nav span {
+  background-color: var(--purple);
+  color: var(--jordy);
+  padding: 0 1rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+.owl-nav span:hover {
+  background-color: var(--jordy);
+  color: var(--purple);
+}
+.owl-prev,
+.owl-next {
+  background-color: transparent !important;
+}
+
+.owl-dots .owl-dot span {
+  background-color: var(--jordy) !important;
+}
+.owl-dots .owl-dot.active span {
+  background-color: var(--purple) !important;
+  font-size: 1.25rem !important;
+}

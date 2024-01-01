@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;
   }
@@ -11,14 +11,15 @@
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
   display: flex;
-}
+} */
 
 /* medium and up screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
+  
 
   .carousel-inner .carousel-item-start.active,
   .carousel-inner .carousel-item-prev {
@@ -29,14 +30,14 @@
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
-}
+} */
 
-.carousel-item {
-  /* width: 98%; */
-  float: none !important;
-  justify-content: center !important;
-  /* transition: transform 10s ease-in-out; */
-}
+/* .carousel-item { */
+/* width: 98%; */
+/* float: none !important;
+  justify-content: center !important; */
+/* transition: transform 10s ease-in-out; */
+/* }
 
 .carousel-inner {
   margin: auto;
@@ -46,4 +47,13 @@
 #recipeCarousel {
   height: 410px !important;
   overflow: hidden;
+} */
+
+/* owl-carousel */
+@media (max-width: 767px) {
+  .container {
+    width: 87% !important;
+  }
+  .courses .card {
+    height: 30rem;}
 }
