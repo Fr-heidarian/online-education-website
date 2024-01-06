@@ -247,7 +247,7 @@ header .navbar-toggler:focus {
 }
 .controls a {
   background-color: var(--blue);
-  color: var(--yellow);
+  color: white;
 }
 .controls a:hover {
   background-color: var(--purple);
@@ -267,8 +267,21 @@ select {
 form label {
   font-size: 1.25rem !important;
 }
-
 .form-check-input#male,
 #female {
   background-color: var(--purple);
+}
+/* footer */
+footer {
+  /* background-color: var(--purple); */
+  background: linear-gradient(to right, var(--jordy), var(--purple));
+  color: var(--jordy);
+}
+.social-icons-footer a {
+  font-size: 1.5rem !important;
+  color: var(--purple);
+  padding: 0.15rem 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  background-color: var(--lavender);
 }
