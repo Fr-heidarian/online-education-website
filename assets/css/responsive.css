@@ -1,58 +1,21 @@
-/* @media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
+/* LOGIN-SIGNUP */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    margin: 0.75rem;
   }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
+  .navbar-nav {
+    align-items: flex-start !important;
   }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-} */
-
-/* medium and up screens */
-/* @media (min-width: 768px) {
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-  
-  .carousel-inner .carousel-item-start.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
+  .login-sign a {
+    margin: 0.5rem 0 !important;
   }
 }
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
-} */
-
-/* .carousel-item { */
-/* width: 98%; */
-/* float: none !important;
-  justify-content: center !important; */
-/* transition: transform 10s ease-in-out; */
-/* }
-
-.carousel-inner {
-  margin: auto;
-  display: flex;
-  align-items: center;
-}
-#recipeCarousel {
-  height: 410px !important;
-  overflow: hidden;
-} */
-
-/* owl-carousel */
+/* OWL-CAROUSEL */
 @media (max-width: 767px) {
   .container {
     width: 87% !important;
   }
   .courses .card {
-    height: 30rem;}
+    height: 30rem;
+  }
 }
