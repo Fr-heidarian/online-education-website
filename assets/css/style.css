@@ -79,7 +79,7 @@ header .navbar-toggler:focus {
 
 /* LOGIN-SIGNUP PAGE*/
 .login-signup {
-  margin: 8rem 0!important;
+  margin: 7rem 0 !important;
 }
 .login-left-parent {
   background: url("../images/signin-background.jpg") no-repeat center / cover;
@@ -300,24 +300,83 @@ header .navbar-toggler:focus {
   background-color: var(--purple);
   color: var(--lavender);
 }
-/* Contact Us Starts */
-form input,
+/* CONTACT US INDEX STARTS */
+.contact form input,
 select {
   box-shadow: none !important;
   background-color: var(--lavender) !important;
   border: var(--purple) !important;
 }
-form input::placeholder,
+.contact form input::placeholder,
 select {
   color: white !important;
 }
-form label {
+.contact form label {
   font-size: 1.25rem !important;
 }
-.form-check-input#male,
+.contact .form-check-input#male,
 #female {
   background-color: var(--purple);
 }
+/* CONTACT US PAGE STARTS */
+
+.contact-box {
+  height: 20rem !important;
+  margin-top: 3rem;
+  padding: 3rem 0;
+  border: 1px solid var(--lavender);
+  color: var(--purple);
+  background: linear-gradient(to right, var(--jordy), var(--lavender));
+  box-shadow: 2px 2px 4px rgba(149, 157, 255, 0.7);
+}
+.contact-box .icons i {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+  background-color: var(--purple);
+  color: var(--yellow);
+  font-size: 1.25rem !important;
+}
+.contact-box .icons h4 {
+  margin-bottom: 2rem;
+  color: var(--blue);
+}
+.contact-box .icons p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* form-part */
+.send-message .form-part {
+  border: 1px solid var(--purple);
+  margin-top: 6rem;
+}
+.send-message .form-part h1 {
+  font-size: 2rem;
+  color: var(--blue);
+}
+.form-part input,
+textarea {
+  background-color: var(--bg);
+  border: 1px solid var(--yellow) !important;
+}
+.form-part input,
+textarea {
+  background-color: var(--bg);
+  border: 1px solid var(--yellow) !important;
+}
+.form-part input,
+textarea:focus{
+  box-shadow: none!important;
+}
+.form-part input::placeholder,
+.form-part textarea::placeholder {
+  color: var(--purple) !important;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
 /* footer */
 footer {
   background: linear-gradient(to right, var(--jordy), var(--purple));
