@@ -350,7 +350,7 @@ select {
 /* form-part */
 .send-message .form-part {
   border: 1px solid var(--purple);
-  margin-top: 6rem;
+  margin: 8rem 0;
 }
 .send-message .form-part h1 {
   font-size: 2rem;
@@ -367,14 +367,37 @@ textarea {
   border: 1px solid var(--yellow) !important;
 }
 .form-part input,
-textarea:focus{
-  box-shadow: none!important;
+textarea:focus {
+  box-shadow: none !important;
 }
 .form-part input::placeholder,
 .form-part textarea::placeholder {
   color: var(--purple) !important;
   opacity: 0.7;
   font-size: 1rem;
+}
+/* fa-questions accordion container */
+.fa-questions {
+  margin-bottom: 5rem;
+}
+.fa-questions h1 {
+  font-size: 3rem;
+  color: var(--blue);
+}
+.accordion-item {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.accordion-item .accordion-button {
+  background: linear-gradient(to right, var(--jordy), var(--lavender));
+  box-shadow: 2px 2px 4px rgba(149, 157, 255, 0.7);
+  color: var(--purple);
+  padding: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.accordion-item .accordion-button:focus {
+  box-shadow: none !important;
 }
 
 /* footer */
