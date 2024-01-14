@@ -72,3 +72,15 @@ function selectbox(checkboxId) {
     }
   });
 }
+
+// /* Change Navigation Style On Scroll */
+window.addEventListener("scroll", function () {
+  var nav = document.querySelector("nav");
+  var scrolled = document.documentElement.scrollTop;
+
+  if (scrolled > 0) {
+    nav.classList.add("scrolled-nav");
+  } else {
+    nav.classList.remove("scrolled-nav");
+  }
+});

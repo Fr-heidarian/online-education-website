@@ -114,7 +114,31 @@ header .navbar-toggler:focus {
   background-color: var(--jordy);
   color: var(--purple);
 }
+/* Change Navigation Style  On Scroll */
+.scrolled-nav {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--blue);
+  opacity: 0.9;
+  border-bottom: 1ps solid var(--purple);
+  z-index: 999;
+}
+nav.scrolled-nav a {
+  color: var(--lavender) !important;
+}
+nav.scrolled-nav a:hover {
+  color: var(--yellow) !important;
+}
+nav.scrolled-nav {
+  transform: translateY(100%);
+  transform: translateY(0%);
+  transition: all 1s ease;
+}
 /* Header Ends */
+
 /* Hero Section Starts */
 .hero h1 {
   font-size: 5rem;
